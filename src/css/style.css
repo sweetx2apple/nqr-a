@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Golos-regular";
+    src: url(/src/fonts/Golos-Text-Regular.web/PT/PT/Golos-Text/golos-text_regular.woff);
+}
+
+@font-face {
+    font-family: "Golos-demibold";
+    src: url(/src/fonts/Golos-Text-DemiBold.web/PT/PT/Golos-Text/golos-text_demibold.woff);
+}
+
+body{
+    background-color: #28292d;
+    font-family: "Golos-regular";
+}
+  
+.common-wrapper {
+    max-width: 3900px;
+    width: 100%;
+    margin: auto;
+    
+    
+    border: 2px solid black;
+}
+
+.logo-group {
+    display: flex;
+    color: white;
+    font-family: "Golos-demibold";
+    font-size: 1.5vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.logo-group svg {
+    display: block;
+    height: 2em;
+    width: fit-content;
+}
+
+.logo-group h1 {
+    margin-left: 18px;
+    font-size: 2em;
+}
+
+.heart-of-page {
+    border: 3px double white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw 0;
+}
+
+.input-id, .input-pswd {
+    width: 20vw;
+    height: 2vw;
+    margin-bottom: 15px;
+    padding: 2px 5px;
+}
+
+.input-id:focus, .input-pswd:focus {
+    outline: none;
+}
+
+.check-button {
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px 50px;
+    border: 2px solid #DC6180;
+    color: #DC6180;
+    transition: background-color 0.2s, color 0.8s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.check-button:hover {
+    background-color: #DC6180;
+    color: white;
+}
+
+.user-card {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto 1vw;
+    border-radius: 2vw;
+    padding: 1vw;
+}
+
+.user-card-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-card-content {
+    padding: 0;
+}
+
+.qa-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #28292d;
+    margin-bottom: 0.2vw;
+    transition: background-color 0.2s, color 0.8s;
+    cursor: pointer;
+}
+
+.qa-item:hover{
+    background-color: #28292d;
+    color: white;
+}
+
+.qa-item span {
+    width: 49.5%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+
