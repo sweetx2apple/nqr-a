@@ -2,7 +2,7 @@ import API from "./API";
 
 export default class CheckAdmin {
     constructor() {
-        this.api = new API(`http://localhost:7070`);
+        this.api = new API(`https://torademoback.onrender.com`);
         this.makeForm();
     }
 
